@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos para el encabezado*/
+#Header {
+    background: rgb(0, 140, 255);
+    color: white;
+    width: 100%;
+    padding: 30px;
+}
+
+#Header h1,p {
+    margin-left: 20px;
+}
+
+#Header p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/*Estilos para el contenido*/
+#Contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+#Experiencia{
+    width: 80%;
+    padding: 20px 0 0 30px;
+    color: rgb(0, 140, 255);
+    
+    margin-right: 10px;
+}
+
+#Experiencia h2 {
+    border-bottom: 2px solid rgb(0, 140, 255);
+}
+
+#Aside{
+    width: 20%;
+    padding: 15px 0 0 30px;
+    background: lightgray;
+    color: rgb(0, 140, 255);
+}
+
+#Aside h2 {
+    border-bottom: 2px solid rgb(0, 140, 255);
+    font-size: 30px;
+}
+
+/*Seccion items*/
+#Item{
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#Item h3 {
+    border: 1px solid red;
+}
+
+#Item h5 {
+   border: 1px solid red;
+   margin-bottom: 10px;
+   margin-top: 5px;
+   
+}
+
+/*Secciones barra lateral */
+#seccion-aside{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+i{
+    color: rgb(0, 140, 255);
+    margin-right: 10px;
+}
+
+#contenedor-skill {
+    width: 100%;
+    border: 1px solid red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Educacion {
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
