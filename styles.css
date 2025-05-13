@@ -53,20 +53,17 @@
 
 /*Seccion items*/
 #Item{
-    border: 1px solid red;
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
 
-#Item h3 {
-    border: 1px solid red;
-}
+
 
 #Item h5 {
-   border: 1px solid red;
    margin-bottom: 10px;
    margin-top: 5px;
+   font-weight: 200;
    
 }
 
@@ -75,7 +72,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
     color: black;
-    border: 1px solid red;
 }
 
 ul {
@@ -95,13 +91,11 @@ i{
 
 #contenedor-skill {
     width: 100%;
-    border: 1px solid red;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 .Educacion {
     margin-bottom: 10px;
-    border: 1px solid red;
 }
 
